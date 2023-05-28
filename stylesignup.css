@@ -1,0 +1,96 @@
+#signup_body {
+  margin: 4em 0 0 2.5em;
+  width: 95%;
+  height: 1000px;
+  background-image: url("https://img.freepik.com/premium-photo/blue-paint-brushes-view-from_93675-63058.jpg?size=626&ext=jpg&ga=GA1.2.1652515195.1678106281&semt=ais");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+#signup_body h2 {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 4em;
+  text-align: center;
+}
+input {
+  border: 2px solid white;
+  width: 450px;
+  height: 3em;
+  margin: 1em 0 0 32em;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  border: 4px black solid;
+}
+select {
+  width: 80px;
+  height: 4em;
+  position: absolute;
+  margin-left: 27em;
+  padding-left: 1em;
+  margin-top: 1.3em;
+}
+input::placeholder {
+  font-size: medium;
+}
+label {
+  display: inline;
+  margin-left: 20em;
+  font-size: large;
+  font-weight: bolder;
+  color: aliceblue;
+}
+#dob {
+  margin-left: 0.6em;
+}
+.g {
+  color: bisque;
+  width: 20px;
+  height: 20px;
+}
+.gende {
+  margin-top: 1em;
+  margin-left: 22em;
+}
+.genderlabel {
+  margin-left: 1.4em;
+}
+#submitsu {
+  font-weight: bolder;
+  font-size: 15px;
+  color: aliceblue;
+  height: 60px;
+  width: 150px;
+  margin-top: 3em;
+  margin-left: 42em;
+  border-radius: 5px;
+  background-color: red;
+  border: 2px black solid;
+}
+#submitsu:hover {
+  background-color: green;
+}
+/*//password
+if ($_POST['Pass']==" " || $_POST['Pass']==NULL) {
+  $passworderr="**Password is Required Field please fill it.";
+}
+else {
+  $password=testinput($_POST['Pass']);
+  $regpass="/^[a-zA-Z0-9-' ]*$/";
+  if (!preg_match($regpass,$password) || strlen($password)>8) {
+    $passworderr = "**Password Should not exceed 8 contain mix letters";
+  }
+}
+//confirm password
+if ($_POST['Confirmpassword']==" " || $_POST['Confirmpassword']==NULL) {
+  $confirmpassworderr="**This is Required Field please fill it.";
+}
+else {
+  $confirmpassword=testinput($_POST['Confirmpassword']);
+  if ($confirmpassword!=$password) {
+    $confirmpassworderr = "**This is not matching password";
+  }
+}*/

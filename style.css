@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap");
+.header-bar {
+  margin: 0;
+  padding: 20px 0 0 5px;
+  width: 100%;
+  height: 105px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+.header-bar div {
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  width: max-content;
+}
+div a {
+  padding: 38px 0;
+  margin-left: 1.2em;
+}
+.Men,
+.Women,
+.Home,
+.EA {
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.Men:hover {
+  border-bottom: 4px solid blue;
+}
+.Women:hover {
+  border-bottom: 4px solid rgb(239, 32, 146);
+}
+.Home:hover {
+  border-bottom: 4px solid rgb(223, 98, 3);
+}
+.EA:hover {
+  border-bottom: 4px solid green;
+}
+#searchi {
+  background-color: rgba(128, 126, 126, 0.547);
+  height: 40px;
+  width: 500px;
+  border-radius: 3px;
+  padding-left: 5em;
+  margin-left: 5em;
+}
+#sear {
+  color: whitesmoke;
+  padding-top: 0.7em;
+  padding-left: 6em;
+  position: absolute;
+}
+#searchi::placeholder {
+  font-size: 18px;
+  padding-top: 18px;
+}
+#usericon {
+  position: absolute;
+  color: green;
+  padding-left: 4em;
+  padding-top: -6em;
+}
+.Profile {
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding-left: 1.4em;
+}
+#wishlisticon {
+  position: absolute;
+  color: green;
+  padding-left: 5em;
+  padding-bottom: 50em;
+  color: red;
+  border: none;
+}
+.Wishlist {
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding-top: 0.8em;
+  padding-left: 2em;
+}
+/*Cart Block Design*/
+#carticon {
+  position: absolute;
+  color: green;
+  padding-left: 4em;
+  padding-bottom: 50em;
+  color: black;
+  border: none;
+}
+.Cart {
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding-top: 0.8em;
+  padding-left: 2em;
+}
+.Profile:hover {
+  border-bottom: 4px solid yellow;
+}
+.Wishlist:hover {
+  border-bottom: 4px solid orange;
+}
+.Cart:hover {
+  border-bottom: 4px solid paleturquoise;
+}
+#men_items {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 20%);
+  margin-left: 4em;
+  margin-top: -2em;
+  visibility: hidden;
+  z-index: 1;
+  position: relative;
+}
+#men_items a {
+  line-height: 3em;
+  padding-left: 2.5em;
+  font-size: 15px;
+}
+#men_items h4 {
+  text-align: center;
+  color: blue;
+}
+#men_items a:hover {
+  font-weight: bold;
+}
+/*Womens items*/
+#women_items {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 20%);
+  margin-left: 11em;
+  margin-top: -20em;
+  visibility: hidden;
+  z-index: 1;
+  position: fixed;
+}
+#women_items a {
+  line-height: 3em;
+  padding-left: 2.5em;
+  font-size: 15px;
+}
+#women_items h4 {
+  text-align: center;
+  font-weight: bold;
+  color: palevioletred;
+}
+#women_items a:hover {
+  font-weight: bold;
+}
+/*Home items*/
+#home_items {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 20%);
+  margin-left: 18em;
+  margin-top: -20em;
+  visibility: hidden;
+  z-index: 1;
+  position: fixed;
+}
+#home_items a {
+  line-height: 3em;
+  padding-left: 2.5em;
+  font-size: 15px;
+}
+#home_items h4 {
+  text-align: center;
+  color: orangered;
+}
+#home_items a:hover {
+  font-weight: bold;
+}
+/*Elecronics items*/
+#EA_items {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 20%);
+  margin-left: 22em;
+  margin-top: -20em;
+  visibility: hidden;
+  z-index: 1;
+  position: fixed;
+}
+#EA_items a {
+  line-height: 3em;
+  padding-left: 2.5em;
+  font-size: 15px;
+}
+#EA_items h4 {
+  text-align: center;
+  color: green;
+}
+#EA_items a:hover {
+  font-weight: bold;
+}
+/*Profile items*/
+#pROFILE_items {
+  background-color: whitesmoke;
+  width: 200px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 20%);
+  margin-left: 75em;
+  visibility: hidden;
+  margin-top: -20em;
+  z-index: 1;
+  position: fixed;
+}
+#pROFILE_items a {
+  line-height: 3em;
+  padding-left: 2.5em;
+  font-size: 15px;
+}
+#pROFILE_items h4 {
+  text-align: center;
+  color: green;
+}
+#pROFILE_items a:hover {
+  font-weight: bold;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Carousel Container>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#myCarousel {
+  width: 90%;
+  height: 550px;
+  background-color: blue;
+  margin-left: 3em;
+  margin-top: -16em;
+  border-radius: 7px;
+}
+#myCarousel div {
+  width: 100%;
+  height: 550px;
+  border-radius: 7px;
+}
+#myCarousel div img {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  border-radius: 7px;
+}
+/*Footer*/
+#footer {
+  background-color: gray;
+  color: white;
+  margin-top: 2em;
+  height: 350px;
+  width: 80%;
+  margin-left: 8em;
+  border-radius: 5px;
+  padding-top: 1em;
+}
+#footer h2 {
+  margin-left: 2em;
+}
+#footer p {
+  margin-left: 18em;
+  font-size: large;
+}
+.copy {
+  margin-left: 90%;
+}
+i.size {
+  margin-left: 2em;
+  font-size: 40px;
+}
+h1 {
+  font-weight: bold;
+  color: aquamarine;
+  text-align: center;
+  text-shadow: 3px 3px 3px yellow;
+}
+/*-------Main Division------*/
+#Maindivision {
+  width: 95%;
+  row-gap: 2.5em;
+  margin-top: 1em;
+  display: grid;
+  padding: 1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 3em;
+  box-shadow: 0px 0px 3px green;
+}
+#Maindivision div {
+  width: 300px;
+  height: 390px;
+  box-shadow: 0px 0px 3px grey;
+  background-color: palegreen;
+}
+#Maindivision a {
+  text-decoration: none;
+}
+
+#Maindivision a :hover {
+  transform: scale(1.2);
+}
+#Maindivision div h4 {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+#menjeandiv {
+  grid-row: 1;
+  grid-column: 1 / span 1;
+}
+#menshirtdiv {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+#menshoesdiv {
+  grid-column: 3 / span 1;
+  grid-row: 1;
+}
+#menswatchesdiv {
+  grid-column: 4 / span 1;
+  grid-row: 1;
+}
+/*2nd row*/
+/*Sarees*/
+#sareesdiv {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+/*Chudidars*/
+#chudidarsdiv {
+  grid-column: 2 / span 1;
+  grid-row: 2;
+}
+/*Sofas*/
+#sofasdiv {
+  grid-column: 3 / span 1;
+  grid-row: 2;
+}
+/*Beds*/
+#bedsdiv {
+  grid-column: 4 / span 1;
+  grid-row: 2;
+}
+/*3rd row*/
+/*utensils*/
+#utensilsdiv {
+  grid-column: 1;
+  grid-row: 3;
+}
+/*Laptops*/
+#laptopsdiv {
+  grid-column: 2 / span 1;
+  grid-row: 3;
+}
+/*Mobiles*/
+#mobilesdiv {
+  grid-column: 3 / span 1;
+  grid-row: 3;
+}
+/*Acs*/
+#acsdiv {
+  grid-column: 4 / span 1;
+  grid-row: 3;
+}
