@@ -178,7 +178,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
       $nam=$roww['name'];
       $cos=$roww['cost'];
       $un=$_SESSION['ID'];
-      $sqlin="insert into cart(name,cost,usernameper) values ('$nam','$cos','$un')";
+      $sqlin="insert into cart(Name,cost,usernamep) values ('$nam','$cos','$un')";
       $resultin=$conn->query($sqlin);
       if ($resultin){
         echo "<script>alert('Item Added To Cart.');</script>";
